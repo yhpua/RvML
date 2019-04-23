@@ -171,8 +171,6 @@ for (i in 1:iter) {
     ##------------------ Step 2: Run the SuperLearner------------------------## 
 
     mylibrarysnow  <- c( 
-      "SL.gam", 
-      "SL.polymars",                
       "SL.glmnet",
       "SL.glm",
       "SL.xgboost1",  
